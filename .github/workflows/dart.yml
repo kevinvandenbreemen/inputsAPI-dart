@@ -11,6 +11,10 @@ jobs:
       image:  google/dart:latest
 
     steps:
+    - name: Setup make
+      uses: mstksg/get-package@v1
+      with:
+        apt-get: make
     - uses: actions/checkout@v1
     - name: Execute tests
       run: make test
