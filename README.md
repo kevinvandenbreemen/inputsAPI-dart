@@ -1,3 +1,6 @@
+# inputsAPI-dart
+Simple abstraction of user inputs for Dart
+
 A library for Dart developers.
 
 Created from templates made available by Stagehand under a BSD-style
